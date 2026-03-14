@@ -1,0 +1,79 @@
+Assignment (02/03/2026)
+
+Assignment Name : ML Idea Generator
+Description : Suggest ML problems in college, healthcare, shopping and describe input → output.
+
+ML Idea Generator
+1. College
+a) Predicting Student Dropout Risk
+Problem: Identify students who are likely to drop out.
+
+
+Input: Attendance %, assignment scores, exam marks, extracurricular participation, past GPA.
+
+
+Output: Dropout risk (Low / Medium / High).
+
+
+student_data = {"attendance": 85, "grades": [70,75,80], "extracurriculars": 2}
+dropout_risk = "Medium"
+b) Course Recommendation System
+Problem: Suggest courses to students based on past performance and interests.
+
+
+Input: Past grades, course preferences, career goals.
+
+
+Output: Ranked list of recommended courses.
+
+
+student_profile = {"grades":[8.5,7,9], "preferences":["AI","ML"]}
+recommended_courses = ["ML 101", "AI Fundamentals"]
+
+2. Healthcare
+a) Early Detection of Diabetes
+Problem: Predict risk of developing diabetes.
+
+
+Input: Age, BMI, blood sugar, family history, lifestyle score.
+
+
+Output: Risk level (Low / Medium / High).
+
+
+patient_info = {"age":45, "BMI":28.5, "blood_sugar":150}
+diabetes_risk = "High"
+b) Skin Lesion Classification
+Problem: Classify skin lesions as benign or malignant.
+
+
+Input: Image of the lesion.
+
+
+Output: Lesion type (Benign / Malignant / Suspicious).
+
+
+skin_image_path = "lesion1.jpg"
+lesion_type = "Malignant"
+
+3. Shopping / Retail
+a) Personalized Product Recommendation
+Problem: Suggest products to users based on their activity.
+
+
+Input: Browsing history, purchase history, ratings.
+
+
+Output: List of recommended products.
+
+
+user_data = {"browsing":["phone","headphones"], "purchases":["laptop"]}
+recommended_products = ["Wireless Headphones", "Laptop Bag"]
+b) Sales Forecasting
+Problem: Predict next week’s sales for inventory management.
+
+
+Input: Historical sales, seasonality, promotions.
+
+
+Output: Forecasted sales number.
